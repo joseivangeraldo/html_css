@@ -1,0 +1,15 @@
+FROM httpd:2.4
+COPY ./website/ /usr/local/apache2/htdocs/
+
+docker build .
+ docker build -t apache-docker .   --> coloca uma tag para melhot identificação
+
+--------------- RODAR IMAGEM EM UM CONTAINER ----------------------
+docker run -dit --name my-server -p 80:80 meuserver
+
+Remover todas as imagens ao mesmo tempo
+Para remover todas as imagens, há um comando que faz isso: docker rmi $(docker images -q)
+
+Parar todos os contêineres em execução: docker stop $(docker ps -a -q)
+Excluir todos os contêineres parados: docker rm $(docker ps -a -q)
+
