@@ -10,6 +10,18 @@
 ## Instação do Ambiente
 > Instalação Imagem Docker
 Obs: Este artigo foi formulado totalmente em um ambiente computacional dentro da nuvem. Particulamente o codespace do github e o Gitpod. São as melhores plataformas para isto, balanceando o custo e beneficio são perfeitos.Se você não conhece ou não sabe como acessa-los, clique aqui.
+
+Primeiro crie uma pasta de trabalho:
+```
+mkdir ServerApache
+```
+
+Após isto crie um arquivo .yml , ele que orquestrará todas imagens e dependencias do ambiente.Ele é controlado pelo aplicativo docker-compose, que já vem instalado no codespace do Github e no Gitpod.Seque a sintaxe do modelo de estudos:
+
+Primeiro crie uma pasta de trabalho:
+```
+mkdir ServerApache
+```
 [Topo](#ancora)
 <a id="ancora2"></a>
 ## Kazekage
