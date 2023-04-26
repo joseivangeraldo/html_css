@@ -189,8 +189,7 @@ Título: Server Apache Docker
 
 Descrição: Montar umservidor Apache, totalmente configurtavel, dentro de um container docker. Plataforma de desenvolvimento Codespace Github.
 <h1 align="center">Servidor Apache</h1>
-Servidor Apache
-descrição: Servidor dentro de um container, que roda diretamente no codespace do Github, Gitpod, ou em maquinas fisicas de sua preferencia.
+Servidor Apache dentro de um container, que roda diretamente no codespace do Github, Gitpod, ou em maquinas fisicas de sua preferencia.
 
 ## Descrição do Projeto
 <p align="center">Escrever uma breve descrição</p>
@@ -312,13 +311,11 @@ Indica se o projeto está em desenvolvimento ou já foi concluído.
 </h4>
 Resultado:
 
-🚧 React Select 🚀 Em construção... 🚧
+🚀 Em construção... 🚧
 ✅ Features
-Status: Opcional
-
-Você pode listar as funcionalidades da aplicação.
-
-É opcional, porém é muito importante colocar. Isso ajuda demais as pessoas entenderem o que já tem feito, se estiver em construção você vai checkando o que está pronto.
+Status: Funcionalidades
+É uma facilidade você conseguir transportar todo o seu ambiente para onde quiser, sem incovenientes de ter de instalar tudo novamente, além do fato que normalmente nos deparamos com estções de trabalho que não são de nossa propriedade e fica muti incoveniente, instalar aplicativos novos.
+Estou acrescentando sempre atualizações sempre melhorando o projeto..
 
 Exemplo:
 
