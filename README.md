@@ -182,18 +182,15 @@ A logo ou banner podem substituir o título, mas não a descrição do projeto, 
 Exemplos de projetos com logo e banner.
 
 
-✅ Título e Descrição
-Status: Obrigatório
+✅ Servidor Apache rodando em Docker container
+Status: em desenvolvimento
 
-Título: Nome curto do projeto
+Título: Server Apache Docker
 
-Descrição: Uma breve descrição do objetivo do projeto.
-
-# Nome do Projeto 
-ou
-<h1 align="center">Nome do Projeto</h1>
-Nome do Projeto
-Com a descrição:
+Descrição: Montar umservidor Apache, totalmente configurtavel, dentro de um container docker. Plataforma de desenvolvimento Codespace Github.
+<h1 align="center">Servidor Apache</h1>
+Servidor Apache
+descrição: Servidor dentro de um container, que roda diretamente no codespace do Github, Gitpod, ou em maquinas fisicas de sua preferencia.
 
 ## Descrição do Projeto
 <p align="center">Escrever uma breve descrição</p>
@@ -202,7 +199,7 @@ Escrever uma breve descrição
 <h1 align="center">
     <a href="https://pt-br.reactjs.org/">🔗 React</a>
 </h1>
-<p align="center">🚀 lib para construir interfaces do usuário com componentes reutilizáveis</p>
+<p align="center">🚀 Criação do Ambiente: </p>
 🔗 React
 🚀 lib para construir interfaces do usuário com componentes reutilizáveis
 
