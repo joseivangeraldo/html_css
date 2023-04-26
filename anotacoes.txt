@@ -20,7 +20,6 @@ git reset --hard origin/main
 Our workflow is such. We have a branch called dev which I can reach at origin/dev. When we do changes, we create a branch off dev:
 
 git checkout -b FixForBug origin/dev
-Now I have a branch called FixForBug which is tracking (I think that's the right word) origin/dev. Thus, if I do a git pull it'll bring in new changes from origin/dev which is great. Now, when I'm finished with my fix, I push to a remote branch called the same thing.
 
 First I pull down any changes from origin/dev and do a rebase:
 
