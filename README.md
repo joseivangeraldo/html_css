@@ -23,6 +23,7 @@ Crie um arquivo Dockerfile, como o codespace e gitpod tem suporte do Visual Stud
 ```
 code Dockerfile
 ```
+Se a IDE perguntar se quer instalar a estensão de suporte para Docker concorde e instale.
 
 Após isto crie um Dockerfile , ele que orquestrará todas imagens e dependencias do ambiente.Ele é controlado pelo aplicativo docker-compose, que já vem instalado no codespace do Github e no Gitpod. Tem de ter este nome 'Dockerfile' sem nada após mesmo. Seque a sintaxe do modelo de estudos:
 
