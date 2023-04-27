@@ -28,133 +28,30 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 @joseivangeraldo ➜ /workspaces/html_css/ServerApache (main) $ git add .
 @joseivangeraldo ➜ /workspaces/html_css/ServerApache (main) $ git commit -a -m "nova demanda"
-[main (root-commit) b5ae8ed] nova demanda
- 2 files changed, 12 insertions(+)
- create mode 100644 Dockerfile
- create mode 100644 index.html
 @joseivangeraldo ➜ /workspaces/html_css/ServerApache (main) $ git push
-fatal: No configured push destination.
-Either specify the URL from the command-line or configure a remote repository using
-
-    git remote add <name> <url>
-
-and then push using the remote name
-
-    git push <name>
-
-@joseivangeraldo ➜ /workspaces/html_css/ServerApache (main) $ cd ..
 @joseivangeraldo ➜ /workspaces/html_css (main) $ git init
-Reinitialized existing Git repository in /workspaces/html_css/.git/
 @joseivangeraldo ➜ /workspaces/html_css (main) $ git add .
-warning: adding embedded git repository: ServerApache
-hint: You've added another git repository inside your current repository.
-hint: Clones of the outer repository will not contain the contents of
-hint: the embedded repository and will not know how to obtain it.
-hint: If you meant to add a submodule, use:
-hint: 
-hint:   git submodule add <url> ServerApache
-hint: 
-hint: If you added this path by mistake, you can remove it from the
-hint: index with:
-hint: 
-hint:   git rm --cached ServerApache
-hint: 
-hint: See "git help submodule" for more information.
+
 @joseivangeraldo ➜ /workspaces/html_css (main) $ git pull
-remote: Enumerating objects: 8, done.
-remote: Counting objects: 100% (8/8), done.
-remote: Compressing objects: 100% (4/4), done.
-remote: Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
-Unpacking objects: 100% (6/6), 1.54 KiB | 526.00 KiB/s, done.
-From https://github.com/joseivangeraldo/html_css
-   4805657..69a6f34  main       -> origin/main
-Updating 4805657..69a6f34
-Fast-forward
- README.md | 11 ++++++++++-
- 1 file changed, 10 insertions(+), 1 deletion(-)
 @joseivangeraldo ➜ /workspaces/html_css (main) $ git init
-Reinitialized existing Git repository in /workspaces/html_css/.git/
 @joseivangeraldo ➜ /workspaces/html_css (main) $ git add .
 @joseivangeraldo ➜ /workspaces/html_css (main) $ git push
-Everything up-to-date
 @joseivangeraldo ➜ /workspaces/html_css (main) $ git merge main
-Already up to date.
-@joseivangeraldo ➜ /workspaces/html_css (main) $ git remote add origin https://github.com/joseivangeraldo/html_css.git
-error: remote origin already exists.
-@joseivangeraldo ➜ /workspaces/html_css (main) $ git brach -M main
-git: 'brach' is not a git command. See 'git --help'.
 
-The most similar command is
-        branch
+@joseivangeraldo ➜ /workspaces/html_css (main) $ git remote add origin https://github.com/joseivangeraldo/html_css.git
 @joseivangeraldo ➜ /workspaces/html_css (main) $ git branch -M main
 @joseivangeraldo ➜ /workspaces/html_css (main) $ git push -u origin main
-branch 'main' set up to track 'origin/main'.
-Everything up-to-date
+
 @joseivangeraldo ➜ /workspaces/html_css (main) $ git add .
 @joseivangeraldo ➜ /workspaces/html_css (main) $ git status
-On branch main
-Your branch is up to date with 'origin/main'.
-
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-        new file:   ServerApache
-        new file:   anotacoes.txt
-
 @joseivangeraldo ➜ /workspaces/html_css (main) $ git restore --staged ServerApache
 @joseivangeraldo ➜ /workspaces/html_css (main) $ git restore --staged anotacoes.txt
 @joseivangeraldo ➜ /workspaces/html_css (main) $ git status
-On branch main
-Your branch is up to date with 'origin/main'.
 
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        ServerApache/
-        anotacoes.txt
-
-nothing added to commit but untracked files present (use "git add" to track)
 @joseivangeraldo ➜ /workspaces/html_css (main) $ git add .
-warning: adding embedded git repository: ServerApache
-hint: You've added another git repository inside your current repository.
-hint: Clones of the outer repository will not contain the contents of
-hint: the embedded repository and will not know how to obtain it.
-hint: If you meant to add a submodule, use:
-hint: 
-hint:   git submodule add <url> ServerApache
-hint: 
-hint: If you added this path by mistake, you can remove it from the
-hint: index with:
-hint: 
-hint:   git rm --cached ServerApache
-hint: 
-hint: See "git help submodule" for more information.
 @joseivangeraldo ➜ /workspaces/html_css (main) $ git status
-On branch main
-Your branch is up to date with 'origin/main'.
-
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-        new file:   ServerApache
-        new file:   anotacoes.txt
-
 @joseivangeraldo ➜ /workspaces/html_css (main) $ git commit -a -m "Demanda"
-[main 5b20ca1] Demanda
- 2 files changed, 11 insertions(+)
- create mode 160000 ServerApache
- create mode 100644 anotacoes.txt
 @joseivangeraldo ➜ /workspaces/html_css (main) $ git status
-On branch main
-Your branch is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
-
-nothing to commit, working tree clean
 @joseivangeraldo ➜ /workspaces/html_css (main) $ git push
-Enumerating objects: 4, done.
-Counting objects: 100% (4/4), done.
-Delta compression using up to 2 threads
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 589 bytes | 589.00 KiB/s, done.
-Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
-To https://github.com/joseivangeraldo/html_css
-   69a6f34..5b20ca1  main -> main
 
 https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
