@@ -9,11 +9,19 @@
 <a id="ancora1"></a>
 ## Instação do Ambiente
 > Instalação Imagem Docker
-Obs: Este artigo foi formulado totalmente em um ambiente computacional dentro da nuvem. Particulamente o codespace do github e o Gitpod. São as melhores plataformas para isto, balanceando o custo e beneficio são perfeitos.Se você não conhece ou não sabe como acessa-los, clique aqui.
+Obs: Este artigo foi formulado totalmente em um ambiente computacional dentro da nuvem. Particulamente o codespace do github e o Gitpod. São as melhores plataformas para isto, balanceando os custos e beneficios, eles são perfeitos.Se você não conhece ou não sabe como acessa-los, clique aqui.
 
 Primeiro crie uma pasta de trabalho:
 ```
 mkdir ServerApache
+```
+Depois entre dentro deste diretório:
+```
+cd ServerApache
+```
+Crie um arquivo Dockerfile, como o codespace e gitpod tem suporte do Visual Studio, somente digitez que o editor se abrirá acima do terminal:
+```
+code Dockerfile
 ```
 
 Após isto crie um Dockerfile , ele que orquestrará todas imagens e dependencias do ambiente.Ele é controlado pelo aplicativo docker-compose, que já vem instalado no codespace do Github e no Gitpod. Tem de ter este nome 'Dockerfile' sem nada após mesmo. Seque a sintaxe do modelo de estudos:
