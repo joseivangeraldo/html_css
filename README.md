@@ -16,12 +16,8 @@ Primeiro crie uma pasta de trabalho:
 mkdir ServerApache
 ```
 
-Após isto crie um arquivo .yml , ele que orquestrará todas imagens e dependencias do ambiente.Ele é controlado pelo aplicativo docker-compose, que já vem instalado no codespace do Github e no Gitpod.Seque a sintaxe do modelo de estudos:
+Após isto crie um Dockerfile , ele que orquestrará todas imagens e dependencias do ambiente.Ele é controlado pelo aplicativo docker-compose, que já vem instalado no codespace do Github e no Gitpod. Tem de ter este nome 'Dockerfile' sem nada após mesmo. Seque a sintaxe do modelo de estudos:
 
-Primeiro crie uma pasta de trabalho:
-```
-mkdir ServerApache
-```
 [Topo](#ancora)
 <a id="ancora2"></a>
 ## Kazekage
