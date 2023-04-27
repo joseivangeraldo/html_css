@@ -1,0 +1,10 @@
+FROM httpd:2.4 
+COPY ./ /usr/local/apache2/htdocs/
+RUN ["apt-get", "update"] 
+RUN ["apt-get", "install", "-y", "vim"]
+
+docker build . 
+docker build -t apache-docker . --> coloca uma tag para melhot identificação
+ docker run -dit --name NOME_BATISMO_CONTAINER -p 80:80 NOME_IMAGEM 
+ docker stop ID_CONTAINER 
+ docker start ID_CONTAINER 
