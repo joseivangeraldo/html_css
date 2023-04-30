@@ -1,6 +1,7 @@
 <a name="ancora"></a>
 # Indice 
 - [Instação do Ambiente](#ancora1)
+-[Tecnologia](#tecnologia)
 - [Kazekage](#ancora2)
 - [Mizukage](#ancora3)
 - [Raikage](#ancora4)
