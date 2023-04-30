@@ -30,12 +30,12 @@ Se a IDE perguntar se quer instalar a estensão de suporte para Docker concordar
 
 O Dockerfile, que orquestrará todas imagens e dependencias do ambiente.Ele é controlado pelo aplicativo docker-compose, que já vem instalado no codespace do Github e no Gitpod. Tem de ter este nome 'Dockerfile' sem nenhuma extensão. Seque a sintaxe do modelo:
 
-'''
+```
 FROM httpd:2.4  
  COPY ./ /usr/local/apache2/htdocs/ 
  RUN ["apt-get", "update"]  
  RUN ["apt-get", "install", "-y", "vim"]
-'''
+```
 
 [Topo](#ancora)
 <a id="ancora2"></a>
