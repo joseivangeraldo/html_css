@@ -1,16 +1,16 @@
 <a name="ancora"></a>
 # Indice 
 - [Instação do Ambiente](#ancora1)
--[Tecnologia](#tecnologia)
-- [Kazekage](#ancora2)
-- [Mizukage](#ancora3)
-- [Raikage](#ancora4)
-- [Tsuchikage](#ancora4)
+-[Tecnologia](#ancora2)
+- [Kazekage](#ancora3)
+- [Mizukage](#ancora4)
+- [Raikage](#ancora5)
+- [Tsuchikage](#ancora6)
 2. Criando os pontos na página
 <a id="ancora1"></a>
 
 
-✅ Tecnologias utilizadas
+✅ a id="ancora4">tecnologia utilizAda</a>
 Status: Obrigatório para projetos de portfólio/estudos.
 
 Listar as tecnologias e colocar os links para o seus respectivos sites é um plus no README.
