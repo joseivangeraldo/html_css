@@ -37,6 +37,37 @@ FROM httpd:2.4
  RUN ["apt-get", "install", "-y", "vim"]
 ```
 
+
+✅ Tecnologias utilizadas
+Status: Obrigatório para projetos de portfólio/estudos.
+
+Listar as tecnologias e colocar os links para o seus respectivos sites é um plus no README.
+
+### 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Expo](https://expo.io/)
+- [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
+- [React Native](https://reactnative.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+Resultado:
+
+🛠 Tecnologias
+As seguintes ferramentas foram usadas na construção do projeto:
+
+Expo
+Node.js
+React
+React Native
+TypeScript
+✅ Contribuição
+Status: Opcional
+
+Se seu projeto começar a receber contribuições, uma maneira legal de reconhecer o trabalho dessas pessoas é adicionando na lista de contribuidores.
+
+
 [Topo](#ancora)
 <a id="ancora2"></a>
 ## Kazekage
