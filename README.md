@@ -1,77 +1,89 @@
 <a name="ancora"></a>
-# Indice 
+
+# Indice
+
 - [Instação do Ambiente](#ancora1)
 - [Kazekage](#ancora2)
 - [Mizukage](#ancora3)
 - [Raikage](#ancora4)
 - [Tsuchikage](#ancora4)
+
 2. Criando os pontos na página
-<a id="ancora1"></a>
+   <a id="ancora1"></a>
+
 ## Instação do Ambiente
+
 > Instalação Imagem Docker
-Obs: Este artigo foi formulado totalmente em um ambiente computacional dentro da nuvem. Particulamente o codespace do github e o Gitpod. São as melhores plataformas para isto, balanceando os custos e beneficios, eles são perfeitos.Se você não conhece ou não sabe como acessa-los, clique aqui.
+> Obs: Este artigo foi formulado totalmente em um ambiente computacional dentro da nuvem. Particulamente o codespace do github e o Gitpod. São as melhores plataformas para isto, balanceando os custos e beneficios, eles são perfeitos.Se você não conhece ou não sabe como acessa-los, clique aqui.
 
 Primeiro crie uma pasta de trabalho:
+
 ```
 mkdir ServerApache
 ```
+
 Depois entre dentro deste diretório:
+
 ```
 cd ServerApache
 ```
+
 Crie um arquivo Dockerfile, como o codespace e gitpod tem suporte do Visual Studio, somente digitez que o editor se abrirá acima do terminal:
+
 ```
 code Dockerfile
 ```
+
+Montar o
+
+```
+docker build .
+```
+
 Se a IDE perguntar se quer instalar a estensão de suporte para Docker concorde e instale.
 
 Após isto crie um Dockerfile , ele que orquestrará todas imagens e dependencias do ambiente.Ele é controlado pelo aplicativo docker-compose, que já vem instalado no codespace do Github e no Gitpod. Tem de ter este nome 'Dockerfile' sem nada após mesmo. Seque a sintaxe do modelo de estudos:
 
 [Topo](#ancora)
 <a id="ancora2"></a>
+
 ## Kazekage
+
 > Loren Ipsum
-Donec nec mattis dui, quis sagittis magna. Praesent in sollicitudin erat, non molestie velit. Nam tempor metus et laoreet sodales. Sed eu mauris odio. Maecenas at feugiat mi. Nam venenatis accumsan mi, in dictum nisl. Phasellus laoreet nec sem at volutpat.
-[Topo](#ancora)
-<a id="ancora3"></a>
+> Donec nec mattis dui, quis sagittis magna. Praesent in sollicitudin erat, non molestie velit. Nam tempor metus et laoreet sodales. Sed eu mauris odio. Maecenas at feugiat mi. Nam venenatis accumsan mi, in dictum nisl. Phasellus laoreet nec sem at volutpat.
+> [Topo](#ancora)
+> <a id="ancora3"></a>
+
 ## Mizukage
+
 > Loren Ipsum
-Donec nec mattis dui, quis sagittis magna. Praesent in sollicitudin erat, non molestie velit. Nam tempor metus et laoreet sodales. Sed eu mauris odio. Maecenas at feugiat mi. Nam venenatis accumsan mi, in dictum nisl. Phasellus laoreet nec sem at volutpat.
-[Topo](#ancora)
-<a id="ancora4"></a>
+> Donec nec mattis dui, quis sagittis magna. Praesent in sollicitudin erat, non molestie velit. Nam tempor metus et laoreet sodales. Sed eu mauris odio. Maecenas at feugiat mi. Nam venenatis accumsan mi, in dictum nisl. Phasellus laoreet nec sem at volutpat.
+> [Topo](#ancora)
+> <a id="ancora4"></a>
+
 ## Raikage
+
 > Loren Ipsum
-Donec nec mattis dui, quis sagittis magna. Praesent in sollicitudin erat, non molestie velit. Nam tempor metus et laoreet sodales. Sed eu mauris odio. Maecenas at feugiat mi. Nam venenatis accumsan mi, in dictum nisl. Phasellus laoreet nec sem at volutpat.
-[Topo](#ancora)
-<a id="ancora5"></a>
+> Donec nec mattis dui, quis sagittis magna. Praesent in sollicitudin erat, non molestie velit. Nam tempor metus et laoreet sodales. Sed eu mauris odio. Maecenas at feugiat mi. Nam venenatis accumsan mi, in dictum nisl. Phasellus laoreet nec sem at volutpat.
+> [Topo](#ancora)
+> <a id="ancora5"></a>
+
 ## Tsuchikage
+
 > Loren Ipsum
-Donec nec mattis dui, quis sagittis magna. Praesent in sollicitudin erat, non molestie velit. Nam tempor metus et laoreet sodales. Sed eu mauris odio. Maecenas at feugiat mi. Nam venenatis accumsan mi, in dictum nisl. Phasellus laoreet nec sem at volutpat.
-[Topo](#ancora)
-
-
-
-
-
-
-
-
-
-
-
-
-
+> Donec nec mattis dui, quis sagittis magna. Praesent in sollicitudin erat, non molestie velit. Nam tempor metus et laoreet sodales. Sed eu mauris odio. Maecenas at feugiat mi. Nam venenatis accumsan mi, in dictum nisl. Phasellus laoreet nec sem at volutpat.
+> [Topo](#ancora)
 
 FROM httpd:2.4
 COPY ./website/ /usr/local/apache2/htdocs/
 
 docker build .
- docker build -t apache-docker .   --> coloca uma tag para melhot identificação
- 
+docker build -t apache-docker . --> coloca uma tag para melhot identificação
+
 --------------- RODAR IMAGEM EM UM CONTAINER ----------------------
 docker run -dit --name NOME_BATISMO_CONTAINER -p 80:80 NOME_IMAGEM
 docker stop ID_CONTAINER
-docker start ID_CONTAINER   -----  docker start 8b978b41740a
+docker start ID_CONTAINER ----- docker start 8b978b41740a
 
 Remover todas as imagens ao mesmo tempo
 Para remover todas as imagens, há um comando que faz isso: docker rmi $(docker images -q)
@@ -109,7 +121,6 @@ My Questions:
 
 Why is -f required in this scenario? Usually when you're forcing something, it's because you were doing something wrong or at least against standard practice. Am I ok doing this, or will it mess up something in the remote branch or create a hassle for whoever has to eventually merge my stuff into dev?
 
-
 None selected
 
 Skip to content
@@ -125,7 +136,9 @@ These are the elements outlined in John Gruber’s original design document. All
 ### Heading
 
 # H1
+
 ## H2
+
 ### H3
 
 ### Bold
@@ -134,7 +147,7 @@ These are the elements outlined in John Gruber’s original design document. All
 
 ### Italic
 
-*italicized text*
+_italicized text_
 
 ### Blockquote
 
@@ -174,10 +187,10 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 
 ### Table
 
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+| Syntax    | Description |
+| --------- | ----------- |
+| Header    | Title       |
+| Paragraph | Text        |
 
 ### Fenced Code Block
 
@@ -234,9 +247,7 @@ X^2^
 markdown-cheat-sheet.md
 Displaying markdown-cheat-sheet.md.
 
-
-
- Logo ou Banner
+Logo ou Banner
 Status: Opcional
 
 Se seu projeto já tem uma logo adicione no README. Pode ser um banner também. Você pode criar uma logo ou banner usando o Canva.
@@ -245,17 +256,18 @@ A logo ou banner podem substituir o título, mas não a descrição do projeto, 
 
 Exemplos de projetos com logo e banner.
 
-
 ✅ Servidor Apache rodando em Docker container
 Status: em desenvolvimento
 
 Título: Server Apache Docker
 
 Descrição: Montar umservidor Apache, totalmente configurtavel, dentro de um container docker. Plataforma de desenvolvimento Codespace Github.
+
 <h1 align="center">Servidor Apache</h1>
 Servidor Apache dentro de um container, que roda diretamente no codespace do Github, Gitpod, ou em maquinas fisicas de sua preferencia.
 
 ## Descrição do Projeto
+
 <p align="center">Escrever uma breve descrição</p>
 Escrever uma breve descrição
 
@@ -269,7 +281,7 @@ Escrever uma breve descrição
 ✅ Badges
 Status: Opcional
 
-É uma questão de gosto pessoal e comunicação. As badges são úteis para indicar o status do projeto: você pode colocar a versão dele, link para licença, quantidade de issues, status da build, status dos testes.  Vale muito a pena colocar.
+É uma questão de gosto pessoal e comunicação. As badges são úteis para indicar o status do projeto: você pode colocar a versão dele, link para licença, quantidade de issues, status da build, status dos testes. Vale muito a pena colocar.
 
 As badges podem ficar no topo antes do título ou abaixo da descrição.
 
@@ -305,7 +317,6 @@ ou ainda em Markdown:
 ![Badge](https://img.shields.io/badge/Blog-Rocketseat-%237159c1?style=for-the-badge&logo=ghost)
 Pronto. Veja como ficou o badge personalizado:
 
-
 Legal que no site shields.io tem o input search / project URL que você cola o link do projeto do seu Github e ele sugere alguns badges.
 
 https://blog.rocketseat.com.br/content/images/2020/07/como-escreve-um-bom-read-me-shields.png
@@ -318,23 +329,24 @@ Status: Obrigatório
 
 Exemplo com markdown:
 
-Tabela de conteúdos
-=================
+# Tabela de conteúdos
+
 <!--ts-->
-   * [Sobre](#Sobre)
-   * [Tabela de Conteudo](#tabela-de-conteudo)
-   * [Instalação](#instalacao)
-   * [Como usar](#como-usar)
-      * [Pre Requisitos](#pre-requisitos)
-      * [Local files](#local-files)
-      * [Remote files](#remote-files)
-      * [Multiple files](#multiple-files)
-      * [Combo](#combo)
-   * [Tests](#testes)
-   * [Tecnologias](#tecnologias)
-<!--te-->
-https://github.com/ekalinin/github-markdown-toc#table-of-contents
-Resultado:
+
+- [Sobre](#Sobre)
+- [Tabela de Conteudo](#tabela-de-conteudo)
+- [Instalação](#instalacao)
+- [Como usar](#como-usar)
+  - [Pre Requisitos](#pre-requisitos)
+  - [Local files](#local-files)
+  - [Remote files](#remote-files)
+  - [Multiple files](#multiple-files)
+  - [Combo](#combo)
+- [Tests](#testes)
+- [Tecnologias](#tecnologias)
+  <!--te-->
+  https://github.com/ekalinin/github-markdown-toc#table-of-contents
+  Resultado:
 
 Tabela de conteúdos
 Sobre
@@ -439,7 +451,7 @@ Nesse caso estou usando algo genérico, usando uma imagem minha do banner do meu
 
 Outra maneira:
 
-* SignUp Mobile
+- SignUp Mobile
 
 ![SignUp Mobile](screenshots/signup-mobile.png)
 
@@ -459,7 +471,7 @@ Exemplo:
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 ### 🎲 Rodando o Back End (servidor)
@@ -482,6 +494,7 @@ $ npm run dev:server
 
 # O servidor inciará na porta:3333 - acesse <http://localhost:3333>
 ```
+
 ✨ Resultado:
 
 Pré-requisitos
@@ -490,22 +503,28 @@ Git, Node.js.
 Além disto é bom ter um editor para trabalhar com o código como VSCode
 
 🎲 Rodando o Back End (servidor)
+
 # Clone este repositório
+
 $ git clone <https://github.com/tgmarinho/nlw1>
 
 # Acesse a pasta do projeto no terminal/cmd
+
 $ cd nlw1
 
 # Vá para a pasta server
+
 $ cd server
 
 # Instale as dependências
+
 $ npm install
 
 # Execute a aplicação em modo de desenvolvimento
+
 $ npm run dev:server
 
-# O servidor inciará na porta:3333 - acesse <http://localhost:3333> 
+# O servidor inciará na porta:3333 - acesse <http://localhost:3333>
 
 ✅ Tecnologias utilizadas
 Status: Obrigatório para projetos de portfólio/estudos.
@@ -521,7 +540,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [React](https://pt-br.reactjs.org/)
 - [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
-Resultado:
+  Resultado:
 
 🛠 Tecnologias
 As seguintes ferramentas foram usadas na construção do projeto:
@@ -540,13 +559,11 @@ Com certeza eles contribuíram porque gostam do projeto, e vão amar ♥️ rece
 
 Segue um modelo bem legal:
 
-
 Eles utilizaram um bot pra criar essa lista: https://allcontributors.org/docs/en/bot/overview
 
 Mas se não usar algo complexo, pode fazer simples: Link para exemplo.
 
 Resultado:
-
 
 É bom colocar o arquivo CONTRIBUTING.md na raiz do projeto para os devs saberem os passos de como contribuir no projeto.
 
@@ -558,7 +575,6 @@ Aqui entra seu jabá, interessante colocar seus contatos, redes sociais para as 
 Link com o template de exemplo.
 
 Resultado:
-
 
 ✅ Licença
 Status: Obrigatório
@@ -606,19 +622,19 @@ Vamos falar ainda sobre Emojis que estão bem na moda. Tem gente que não gosta,
 Fica legal colocar nos tópicos ou nas listas. Exemplo:
 
 🏁 Tópicos
-👉  Descrição do projeto
+👉 Descrição do projeto
 
 👉 Funcionalidades
 
-👉  Deploy da Aplicação
+👉 Deploy da Aplicação
 
-👉  Pré-requisitos
+👉 Pré-requisitos
 
 👉 Como rodar a aplicação
 
 Você pode pegar os emojis aqui ou aqui.
 
-⚒️  Ferramentas:
+⚒️ Ferramentas:
 Sites que dão dicas e inclusive um code/preview do README para seu projeto:
 
 https://www.makeareadme.com/#mind-reading
@@ -640,7 +656,6 @@ Em português e com banner 🇧🇷
 Em português sem logo 🇧🇷
 Em inglês sem emojis 🇺🇸
 Para copiar a estrutura do README você tem que clicar no arquivo README.md e depois clicar na opção RAW, selecionar tudo, copiar e colar no seu editor preferido que suporte HTML e Markdown.
-
 
 🔗 Links de README inspiradores:
 https://github.com/ant-design/ant-design
@@ -674,38 +689,51 @@ https://github.com/matiassingers/awesome-readme
 https://blog.rocketseat.com.br/o-que-e-readme-e-porque-e-tao-importante/
 Posta aí nos comentários o seu README bonitão :)
 
-Espero que  tenha curtido! 💜
+Espero que tenha curtido! 💜
 
 <a name="ancora"></a>
+
 # Os 5 Granges Kages
+
 - [Hokage](#ancora1)
 - [Kazekage](#ancora2)
 - [Mizukage](#ancora3)
 - [Raikage](#ancora4)
 - [Tsuchikage](#ancora4)
+
 2. Criando os pontos na página
-<a id="ancora1"></a>
+   <a id="ancora1"></a>
+
 ## Hokage
+
 > Loren Ipsum
-Donec nec mattis dui, quis sagittis magna. Praesent in sollicitudin erat, non molestie velit. Nam tempor metus et laoreet sodales. Sed eu mauris odio. Maecenas at feugiat mi. Nam venenatis accumsan mi, in dictum nisl. Phasellus laoreet nec sem at volutpat.
-[Topo](#ancora)
-<a id="ancora2"></a>
+> Donec nec mattis dui, quis sagittis magna. Praesent in sollicitudin erat, non molestie velit. Nam tempor metus et laoreet sodales. Sed eu mauris odio. Maecenas at feugiat mi. Nam venenatis accumsan mi, in dictum nisl. Phasellus laoreet nec sem at volutpat.
+> [Topo](#ancora)
+> <a id="ancora2"></a>
+
 ## Kazekage
+
 > Loren Ipsum
-Donec nec mattis dui, quis sagittis magna. Praesent in sollicitudin erat, non molestie velit. Nam tempor metus et laoreet sodales. Sed eu mauris odio. Maecenas at feugiat mi. Nam venenatis accumsan mi, in dictum nisl. Phasellus laoreet nec sem at volutpat.
-[Topo](#ancora)
-<a id="ancora3"></a>
+> Donec nec mattis dui, quis sagittis magna. Praesent in sollicitudin erat, non molestie velit. Nam tempor metus et laoreet sodales. Sed eu mauris odio. Maecenas at feugiat mi. Nam venenatis accumsan mi, in dictum nisl. Phasellus laoreet nec sem at volutpat.
+> [Topo](#ancora)
+> <a id="ancora3"></a>
+
 ## Mizukage
+
 > Loren Ipsum
-Donec nec mattis dui, quis sagittis magna. Praesent in sollicitudin erat, non molestie velit. Nam tempor metus et laoreet sodales. Sed eu mauris odio. Maecenas at feugiat mi. Nam venenatis accumsan mi, in dictum nisl. Phasellus laoreet nec sem at volutpat.
-[Topo](#ancora)
-<a id="ancora4"></a>
+> Donec nec mattis dui, quis sagittis magna. Praesent in sollicitudin erat, non molestie velit. Nam tempor metus et laoreet sodales. Sed eu mauris odio. Maecenas at feugiat mi. Nam venenatis accumsan mi, in dictum nisl. Phasellus laoreet nec sem at volutpat.
+> [Topo](#ancora)
+> <a id="ancora4"></a>
+
 ## Raikage
+
 > Loren Ipsum
-Donec nec mattis dui, quis sagittis magna. Praesent in sollicitudin erat, non molestie velit. Nam tempor metus et laoreet sodales. Sed eu mauris odio. Maecenas at feugiat mi. Nam venenatis accumsan mi, in dictum nisl. Phasellus laoreet nec sem at volutpat.
-[Topo](#ancora)
-<a id="ancora5"></a>
+> Donec nec mattis dui, quis sagittis magna. Praesent in sollicitudin erat, non molestie velit. Nam tempor metus et laoreet sodales. Sed eu mauris odio. Maecenas at feugiat mi. Nam venenatis accumsan mi, in dictum nisl. Phasellus laoreet nec sem at volutpat.
+> [Topo](#ancora)
+> <a id="ancora5"></a>
+
 ## Tsuchikage
+
 > Loren Ipsum
-Donec nec mattis dui, quis sagittis magna. Praesent in sollicitudin erat, non molestie velit. Nam tempor metus et laoreet sodales. Sed eu mauris odio. Maecenas at feugiat mi. Nam venenatis accumsan mi, in dictum nisl. Phasellus laoreet nec sem at volutpat.
-[Topo](#ancora)
+> Donec nec mattis dui, quis sagittis magna. Praesent in sollicitudin erat, non molestie velit. Nam tempor metus et laoreet sodales. Sed eu mauris odio. Maecenas at feugiat mi. Nam venenatis accumsan mi, in dictum nisl. Phasellus laoreet nec sem at volutpat.
+> [Topo](#ancora)

@@ -55,3 +55,4 @@ nothing added to commit but untracked files present (use "git add" to track)
 @joseivangeraldo ➜ /workspaces/html_css (main) $ git push
 
 https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
+https://phoenixnap.com/kb/how-to-commit-changes-to-docker-image
