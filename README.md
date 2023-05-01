@@ -1,7 +1,7 @@
 <a name="ancora"></a>
 # Indice 
-- [Instação do Ambiente](#tecnologia)
-- [Tecnologia](#ancora2)
+- [Instação do Ambiente](#instalacao)
+- [Tecnologia](#tecnologia)
 - [Kazekage](#ancora3)
 - [Mizukage](#ancora4)
 - [Raikage](#ancora5)
@@ -41,7 +41,7 @@ Se seu projeto começar a receber contribuições, uma maneira legal de reconhec
 
 
 
-## Instação do Ambiente
+## <a id="tecnologia">Instalação do Ambiente</a>
 > Instalação Imagem Docker
 Obs: Estes exemplos foram formulados totalmente em um ambiente computacional dentro da nuvem. Particulamente no codespace do github e Gitpod. Na atualidade são as melhores plataformas para isto, balanceando os custos e beneficios. Se você não conhece ou não sabe como acessa-los, clique aqui.
 
