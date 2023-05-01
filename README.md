@@ -1,4 +1,5 @@
 <a name="ancora"></a>
+<<<<<<< HEAD
 
 # Indice
 
@@ -18,6 +19,43 @@
 
 Primeiro crie uma pasta de trabalho:
 
+=======
+# Indice 
+- [Tecnologia](#tecnologia)
+- [Instação do Ambiente](#instalacao)
+- [Kazekage](#ancora3)
+- [Mizukage](#ancora4)
+- [Raikage](#ancora5)
+- [Tsuchikage](#ancora6)
+
+### <a id="tecnologia"> 🛠 Tecnologias</a>
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Expo](https://expo.io/)
+- [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
+- [React Native](https://reactnative.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+🛠 Tecnologias
+As seguintes ferramentas foram usadas na construção do projeto:
+
+Expo
+Node.js
+React
+React Native
+TypeScript
+
+[Topo](#ancora)
+
+## <a id="instalacao">Instalação do Ambiente</a>
+Instalação Imagem Docker:
+Obs: Estes exemplos foram formulados totalmente em um ambiente computacional dentro da nuvem. Particulamente no codespace do github e Gitpod. Na atualidade são as melhores plataformas para isto, balanceando os custos e beneficios. Se você não conhece ou não sabe como acessa-los, [clique aqui.](https://docs.github.com/en/codespaces/developing-in-codespaces/opening-an-existing-codespace/)
+
+No codespace abra um terminal ou teclas use <kbd>Ctrl</kbd> + <kbd>'</kbd> , após crie a pasta de trabalho:
+
+>>>>>>> refs/remotes/origin/main
 ```
 mkdir ServerApache
 ```
@@ -27,12 +65,17 @@ Depois entre dentro deste diretório:
 ```
 cd ServerApache
 ```
+<<<<<<< HEAD
 
 Crie um arquivo Dockerfile, como o codespace e gitpod tem suporte do Visual Studio, somente digitez que o editor se abrirá acima do terminal:
+=======
+Crie um arquivo Dockerfile, como o codespace e gitpod já vem com Visual Studio configurado, digite:
+>>>>>>> refs/remotes/origin/main
 
 ```
 code Dockerfile
 ```
+<<<<<<< HEAD
 
 Montar o
 
@@ -41,10 +84,22 @@ docker build .
 ```
 
 Se a IDE perguntar se quer instalar a estensão de suporte para Docker concorde e instale.
+=======
+Se a IDE perguntar se quer instalar a estensão de suporte para Docker concordar  e instalar.
+>>>>>>> refs/remotes/origin/main
 
-Após isto crie um Dockerfile , ele que orquestrará todas imagens e dependencias do ambiente.Ele é controlado pelo aplicativo docker-compose, que já vem instalado no codespace do Github e no Gitpod. Tem de ter este nome 'Dockerfile' sem nada após mesmo. Seque a sintaxe do modelo de estudos:
+O Dockerfile, que orquestrará todas imagens e dependencias do ambiente.Ele é controlado pelo aplicativo docker-compose, que já vem instalado no codespace do Github e no Gitpod. Tem de ter este nome 'Dockerfile' sem nenhuma extensão. Seque a sintaxe do modelo:
 
+```
+ FROM httpd:2.4  
+ COPY ./ /usr/local/apache2/htdocs/ 
+ RUN ["apt-get", "update"]  
+ RUN ["apt-get", "install", "-y", "vim"]
+ ```
+ Nas duas ultimas linhas estamos atualizando a distribuição Linux, em seguida instalando o editor VIM, caso necessitar de editar algum código no Shell.
 [Topo](#ancora)
+
+
 <a id="ancora2"></a>
 
 ## Kazekage
