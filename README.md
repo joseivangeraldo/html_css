@@ -7,13 +7,7 @@
 - [Raikage](#ancora5)
 - [Tsuchikage](#ancora6)
 
-
-✅ <a id="tecnologia">Tecnologia utilizada</a>
-Status: Obrigatório para projetos de portfólio/estudos.
-
-Listar as tecnologias e colocar os links para o seus respectivos sites é um plus no README.
-
-### 🛠 Tecnologias
+### <a id="tecnologia"> 🛠 Tecnologias</a>
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
@@ -22,7 +16,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [React](https://pt-br.reactjs.org/)
 - [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
-Resultado:
 
 🛠 Tecnologias
 As seguintes ferramentas foram usadas na construção do projeto:
@@ -59,13 +52,15 @@ Se a IDE perguntar se quer instalar a estensão de suporte para Docker concordar
 O Dockerfile, que orquestrará todas imagens e dependencias do ambiente.Ele é controlado pelo aplicativo docker-compose, que já vem instalado no codespace do Github e no Gitpod. Tem de ter este nome 'Dockerfile' sem nenhuma extensão. Seque a sintaxe do modelo:
 
 ```
-FROM httpd:2.4  
+ FROM httpd:2.4  
  COPY ./ /usr/local/apache2/htdocs/ 
  RUN ["apt-get", "update"]  
  RUN ["apt-get", "install", "-y", "vim"]
  ```
-
+ Nas duas ultimas linhas estamos atualizando a distribuição Linux, em seguida instalando o editor VIM, caso necessitar de editar algum código no Shell.
 [Topo](#ancora)
+
+
 <a id="ancora2"></a>
 ## Kazekage
 > Loren Ipsum
