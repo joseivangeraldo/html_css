@@ -29,8 +29,8 @@ TypeScript
 [Topo](#ancora)
 
 ## <a id="instalacao">Instalação do Ambiente</a>
-> Instalação Imagem Docker
-Obs: Estes exemplos foram formulados totalmente em um ambiente computacional dentro da nuvem. Particulamente no codespace do github e Gitpod. Na atualidade são as melhores plataformas para isto, balanceando os custos e beneficios. Se você não conhece ou não sabe como acessa-los, clique aqui.
+Instalação Imagem Docker:
+Obs: Estes exemplos foram formulados totalmente em um ambiente computacional dentro da nuvem. Particulamente no codespace do github e Gitpod. Na atualidade são as melhores plataformas para isto, balanceando os custos e beneficios. Se você não conhece ou não sabe como acessa-los, [clique aqui.](https://docs.github.com/en/codespaces/developing-in-codespaces/opening-an-existing-codespace/)
 
 No codespace abra um terminal ou teclas ( CTRL + ' ) , após crie a pasta de trabalho:
 
