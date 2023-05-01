@@ -1,7 +1,7 @@
 <a name="ancora"></a>
 # Indice 
-- [Instação do Ambiente](#ancora1)
--[Tecnologia](#ancora2)
+- [Instação do Ambiente](#tecnologia)
+- [Tecnologia](#ancora2)
 - [Kazekage](#ancora3)
 - [Mizukage](#ancora4)
 - [Raikage](#ancora5)
@@ -10,7 +10,7 @@
 <a id="ancora1"></a>
 
 
-✅ a id="ancora4">tecnologia utilizAda</a>
+✅ <a id="tecnologia">Tecnologia utilizada</a>
 Status: Obrigatório para projetos de portfólio/estudos.
 
 Listar as tecnologias e colocar os links para o seus respectivos sites é um plus no README.
