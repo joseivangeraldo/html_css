@@ -1,13 +1,11 @@
 <a name="ancora"></a>
 # Indice 
-- [Instação do Ambiente](#instalacao)
 - [Tecnologia](#tecnologia)
+- [Instação do Ambiente](#instalacao)
 - [Kazekage](#ancora3)
 - [Mizukage](#ancora4)
 - [Raikage](#ancora5)
 - [Tsuchikage](#ancora6)
-2. Criando os pontos na página
-<a id="ancora1"></a>
 
 
 ✅ <a id="tecnologia">Tecnologia utilizada</a>
@@ -34,12 +32,8 @@ Node.js
 React
 React Native
 TypeScript
-✅ Contribuição
-Status: Opcional
 
-Se seu projeto começar a receber contribuições, uma maneira legal de reconhecer o trabalho dessas pessoas é adicionando na lista de contribuidores.
-
-
+[Topo](#ancora)
 
 ## <a id="instalacao">Instalação do Ambiente</a>
 > Instalação Imagem Docker
@@ -69,38 +63,7 @@ FROM httpd:2.4
  COPY ./ /usr/local/apache2/htdocs/ 
  RUN ["apt-get", "update"]  
  RUN ["apt-get", "install", "-y", "vim"]
-```
-
-
-✅ Tecnologias utilizadas
-Status: Obrigatório para projetos de portfólio/estudos.
-
-Listar as tecnologias e colocar os links para o seus respectivos sites é um plus no README.
-
-### 🛠 Tecnologias
-
-As seguintes ferramentas foram usadas na construção do projeto:
-
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-Resultado:
-
-🛠 Tecnologias
-As seguintes ferramentas foram usadas na construção do projeto:
-
-Expo
-Node.js
-React
-React Native
-TypeScript
-✅ Contribuição
-Status: Opcional
-
-Se seu projeto começar a receber contribuições, uma maneira legal de reconhecer o trabalho dessas pessoas é adicionando na lista de contribuidores.
-
+ ```
 
 [Topo](#ancora)
 <a id="ancora2"></a>
