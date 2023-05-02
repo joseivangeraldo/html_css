@@ -16,7 +16,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Docker Hub](https://hub.docker.com/)
 - [HTML](https://www.w3.org/html/)
 - [Visual Studio](https://expo.io](https://code.visualstudio.com/docs)/)
-   [Topo](#ancora)
+   #[Topo](#ancora)
 
 ## <a id="instalacao">Instalação do Ambiente</a>
 Instalação Imagem Docker:
