@@ -16,15 +16,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 
-🛠 Tecnologias
-As seguintes ferramentas foram usadas na construção do projeto:
-
-Expo
-Node.js
-React
-React Native
-TypeScript
-
 [Topo](#ancora)
 
 ## <a id="instalacao">Instalação do Ambiente</a>
