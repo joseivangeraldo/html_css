@@ -24,17 +24,24 @@ Obs: Estes exemplos foram formulados totalmente em um ambiente computacional den
 
 No codespace abra um terminal ou teclas use <kbd>Ctrl</kbd> + <kbd>'</kbd> , após crie a pasta de trabalho:
 ```
-mkdir ServerApache
+$ mkdir ServerApache
 ```
 
 Depois entre dentro deste diretório:
 ```
-cd ServerApache
+$ cd ServerApache
 ```
 Crie um arquivo Dockerfile, como o codespace e gitpod já vem com Visual Studio configurado, digite:
 ```
-code Dockerfile
+$ code Dockerfile
 ```
+Vamos ver antes se existem imagens criadas, só para verificar
+```
+$ docker images
+```
+Se não tiver nenhuma imagem docker será mostrado uma tabela vazia:
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+
 O Dockerfile, que orquestrará todas imagens e dependencias do ambiente.Ele é controlado pelo aplicativo docker-compose,
 que já vem instalado no codespace do Github e no Gitpod. Tem de ter este nome 'Dockerfile' sem nenhuma extensão.
 Seque a sintaxe do modelo:
