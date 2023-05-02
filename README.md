@@ -42,8 +42,8 @@ Depois entre dentro deste diretório:
 ```
 $ cd ServerApache
 ```
-Criar uma página html básica, para verificar que ocorreu uma instalação perfeita.
-Coloque a seu gosto, segue um modelo abaixo:
+Criar uma página chamada index.html básica dentro deste diretório, para verificar que ocorreu uma instalação perfeita.
+Segue um modelo básico abaixo:
 ```
 <html>
     <head> </head>
