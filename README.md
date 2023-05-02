@@ -35,15 +35,9 @@ Crie um arquivo Dockerfile, como o codespace e gitpod já vem com Visual Studio 
 ```
 code Dockerfile
 ```
-Montar a Imagem
-```
-docker build .
-```
-Se a IDE perguntar se quer instalar a estensão de suporte para Docker concordar  e instalar.
 O Dockerfile, que orquestrará todas imagens e dependencias do ambiente.Ele é controlado pelo aplicativo docker-compose,
 que já vem instalado no codespace do Github e no Gitpod. Tem de ter este nome 'Dockerfile' sem nenhuma extensão.
 Seque a sintaxe do modelo:
-
 ```
  FROM httpd:2.4  
  COPY ./ /usr/local/apache2/htdocs/ 
@@ -51,6 +45,13 @@ Seque a sintaxe do modelo:
  RUN ["apt-get", "install", "-y", "vim"]
  ```
  Nas duas ultimas linhas estamos atualizando a distribuição Linux, em seguida instalando o editor VIM, caso necessitar de editar algum código no Shell.
+
+Montar a Imagem
+```
+docker build .
+```
+Se a IDE perguntar se quer instalar a estensão de suporte para Docker concordar  e instalar.
+
 [Topo](#ancora)
 
 
