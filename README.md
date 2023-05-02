@@ -10,11 +10,12 @@
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [Visual Studio]([https://expo.io](https://code.visualstudio.com/docs)/)
+- [Docker]([https://nodejs.org/en](https://www.docker.com/)
+- [Docker Hub](https://hub.docker.com/)
+- [Apache](https://httpd.apache.org/)
+- [HTML](https://www.w3.org/html/)
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html/)
 
 [Topo](#ancora)
 
