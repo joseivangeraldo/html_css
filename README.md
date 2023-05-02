@@ -4,7 +4,7 @@
 - [Kazekage](#ancora3)
 - [Mizukage](#ancora4)
 - [Raikage](#ancora5)
-- [Tsuchikage](#ancora6)
+- [Tsuchikage](#ancora)
 
 ### <a id="tecnologia"> 🛠 Tecnologias</a>
 
