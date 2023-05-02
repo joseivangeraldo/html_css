@@ -43,7 +43,7 @@ Depois entre dentro deste diretório:
 $ cd ServerApache
 ```
 Criar uma página html básica, para verificar que ocorreu uma instalação perfeita.
-Coloque a seu gosto, mas temos um modelo abaixo:
+Coloque a seu gosto, segue um modelo abaixo:
 ```
 <html>
     <head> </head>
@@ -55,12 +55,12 @@ Coloque a seu gosto, mas temos um modelo abaixo:
 </html>
 ```
 
-
 Crie um arquivo Dockerfile. O Codespace GitHub e Gitpod já vem com Visual Studio configurado.
 Tem de ter este nome 'Dockerfile' sem nenhuma extensão, assim digite:
 ```
 $ code Dockerfile
 ```
+
 Este Dockerfile, que orquestrará todas as dependencias do ambiente para a rodar a imagem Docker.
 Seque a sintaxe do modelo:
 ```
@@ -71,11 +71,11 @@ Seque a sintaxe do modelo:
  ```
  Nas duas ultimas linhas estamos atualizando a distribuição Linux, em seguida instalando o editor VIM, caso necessitar de editar algum código no Shell.
 
-Montar a Imagem, pelo comando.
+Montar a Imagem, importante estar dentro do diretório que foi criado, e o Dockerfile estar dentro do mesmo diretório:
 ```
 docker build .
 ```
-Se a IDE perguntar se quer instalar a estensão de suporte para Docker concordar  e instalar.
+Se a IDE perguntar se quer instalar a estensão de suporte para Docker concordar e instalar.
 
 [Topo](#ancora)
 
