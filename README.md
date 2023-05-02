@@ -69,13 +69,16 @@ Seque a sintaxe do modelo:
  RUN ["apt-get", "update"]  
  RUN ["apt-get", "install", "-y", "vim"]
  ```
+ Em COPY , copiamos tudo que esta na pasta e coloca na pasta aonde são publicada as paginas web do container.
  Nas duas ultimas linhas estamos atualizando a distribuição Linux, em seguida instalando o editor VIM, caso necessitar de editar algum código no Shell.
 
 Montar a Imagem, importante estar dentro do diretório que foi criado, e o Dockerfile estar dentro do mesmo diretório:
 ```
 docker build .
 ```
+Detalhe o sinal de ponto, ao final, informar para pegar tudo que esta dentro do diretório
 Se a IDE perguntar se quer instalar a estensão de suporte para Docker concordar e instalar.
+
 
 [Topo](#ancora)
 
