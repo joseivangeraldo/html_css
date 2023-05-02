@@ -42,6 +42,20 @@ Depois entre dentro deste diretório:
 ```
 $ cd ServerApache
 ```
+Criar uma página html básica, para verificar que ocorreu uma instalação perfeita.
+Coloque a seu gosto, mas temos um modelo abaixo:
+```
+<html>
+    <head> </head>
+    <body>
+        <H1> 
+            A Pagina Inicial Funcionou
+        </H1>
+    </body>
+</html>
+```
+
+
 Crie um arquivo Dockerfile. O Codespace GitHub e Gitpod já vem com Visual Studio configurado.
 Tem de ter este nome 'Dockerfile' sem nenhuma extensão, assim digite:
 ```
