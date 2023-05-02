@@ -10,14 +10,13 @@
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Visual Studio]([https://expo.io](https://code.visualstudio.com/docs)/)
-- [Docker]([https://nodejs.org/en](https://www.docker.com/)
-- [Docker Hub](https://hub.docker.com/)
 - [Apache](https://httpd.apache.org/)
-- [HTML](https://www.w3.org/html/)
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html/)
-
-[Topo](#ancora)
+- [Docker](https://nodejs.org/en](https://www.docker.com/)
+- [Docker Hub](https://hub.docker.com/)
+- [HTML](https://www.w3.org/html/)
+- [Visual Studio](https://expo.io](https://code.visualstudio.com/docs)/)
+- [Topo](#ancora)
 
 ## <a id="instalacao">Instalação do Ambiente</a>
 Instalação Imagem Docker:
