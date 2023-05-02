@@ -44,20 +44,15 @@ Crie um arquivo Dockerfile, como o codespace e gitpod já vem com Visual Studio 
 ```
 code Dockerfile
 ```
-<<<<<<< HEAD
-
-Montar o
+Montar a Imagem
 
 ```
 docker build .
 ```
-
-Se a IDE perguntar se quer instalar a estensão de suporte para Docker concorde e instale.
-=======
 Se a IDE perguntar se quer instalar a estensão de suporte para Docker concordar  e instalar.
->>>>>>> refs/remotes/origin/main
-
-O Dockerfile, que orquestrará todas imagens e dependencias do ambiente.Ele é controlado pelo aplicativo docker-compose, que já vem instalado no codespace do Github e no Gitpod. Tem de ter este nome 'Dockerfile' sem nenhuma extensão. Seque a sintaxe do modelo:
+O Dockerfile, que orquestrará todas imagens e dependencias do ambiente.Ele é controlado pelo aplicativo docker-compose,
+que já vem instalado no codespace do Github e no Gitpod. Tem de ter este nome 'Dockerfile' sem nenhuma extensão.
+Seque a sintaxe do modelo:
 
 ```
  FROM httpd:2.4  
