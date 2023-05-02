@@ -20,21 +20,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## <a id="instalacao">Instalação do Ambiente</a>
 Instalação Imagem Docker:
-Obs: Estes exemplos foram formulados totalmente em um ambiente computacional dentro da nuvem. Particulamente no codespace do github e Gitpod. Na atualidade são as melhores plataformas para isto, balanceando os custos e beneficios. Se você não conhece ou não sabe como acessa-los, [clique aqui.](https://docs.github.com/en/codespaces/developing-in-codespaces/opening-an-existing-codespace/)
+Obs: Estes exemplos foram formulados totalmente em um ambiente computacional dentro da nuvem. Particulamente no codespace do Github e Gitpod. Na atualidade são as melhores plataformas para isto, balanceando os custos e beneficios. Se você não conhece ou não sabe como acessa-los, [clique aqui.](https://docs.github.com/en/codespaces/developing-in-codespaces/opening-an-existing-codespace/)
 
-No codespace abra um terminal ou teclas use <kbd>Ctrl</kbd> + <kbd>'</kbd> , após crie a pasta de trabalho:
-```
-$ mkdir ServerApache
-```
-
-Depois entre dentro deste diretório:
-```
-$ cd ServerApache
-```
-Crie um arquivo Dockerfile, como o codespace e gitpod já vem com Visual Studio configurado, digite:
-```
-$ code Dockerfile
-```
+No codespace abra um terminal ou teclas use <kbd>Ctrl</kbd> + <kbd>'</kbd> 
 Vamos ver antes se existem imagens criadas, só para verificar
 ```
 $ docker images
@@ -43,8 +31,23 @@ Se não tiver nenhuma imagem docker será mostrado uma tabela vazia:
 ```
 REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
 ```
-O Dockerfile, que orquestrará todas imagens e dependencias do ambiente.Ele é controlado pelo aplicativo docker-compose,
-que já vem instalado no codespace do Github e no Gitpod. Tem de ter este nome 'Dockerfile' sem nenhuma extensão.
+
+Após crie a pasta de trabalho:
+```
+$ mkdir ServerApache
+```
+O nome do diretório pode ser este ou qualquer outro de sua preferência.
+
+Depois entre dentro deste diretório:
+```
+$ cd ServerApache
+```
+Crie um arquivo Dockerfile. O Codespace GitHub e Gitpod já vem com Visual Studio configurado.
+Tem de ter este nome 'Dockerfile' sem nenhuma extensão, assim digite:
+```
+$ code Dockerfile
+```
+Este Dockerfile, que orquestrará todas as dependencias do ambiente para a rodar a imagem Docker.
 Seque a sintaxe do modelo:
 ```
  FROM httpd:2.4  
@@ -54,7 +57,7 @@ Seque a sintaxe do modelo:
  ```
  Nas duas ultimas linhas estamos atualizando a distribuição Linux, em seguida instalando o editor VIM, caso necessitar de editar algum código no Shell.
 
-Montar a Imagem
+Montar a Imagem, pelo comando.
 ```
 docker build .
 ```
