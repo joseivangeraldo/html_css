@@ -110,10 +110,22 @@ Verificar agora se existe algum contâiner rodando:
 ```
 $ docker ps
 ```
-Se não existir vai ser retornado uma tabela vazia:
+Se não existir nenhum container rodando, vai ser retornado uma tabela vazia:
 ```
 CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 ```
+Agora vamos colocar para rodar um container pegando como argumento o ID da imagem Docker,
+como podemos conferir pelo comando : docker images, feito acima:
+REPOSITORY      TAG       IMAGE ID       CREATED          SIZE
+apache-docker   latest    d0b5d542ef58   16 minutes ago   199MB
+Pegamos a coluna IMAGE ID , como argumento para o comando abaixo:
+docker run -dit --name NOME_BATISMO_CONTAINER -p 80:80 IMAGE ID 
+```
+$ docker run -dit --name apache-docker -p 80:80 d0b5d542ef58
+```
+Vamos montar ele na porta 80 local, comunicando com a porta 80 do container.
+
+
 [Topo](#ancora)
 
 
