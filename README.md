@@ -76,11 +76,12 @@ Montar a Imagem, importante estar dentro do diretório que foi criado, e o Docke
 ```
 docker build .
 ```
-Detalhe o sinal de ponto, ao final, informar para pegar tudo que esta dentro do diretório
-Se a IDE perguntar se quer instalar a estensão de suporte para Docker concordar e instalar.
+Detalhe o sinal de ponto, ao final, informar para pegar tudo que esta dentro do diretório.
 
+
+Será mostrado mensagens da evolução do processo como abaixo:
 ```
-@joseivangeraldo ➜ /workspaces/html_css/ServerApache (main) $ docker build .
+$ docker build .
 [+] Building 16.1s (10/10) FINISHED                                                                                                        
  => [internal] load build definition from Dockerfile                                                                                  0.3s
  => => transferring dockerfile: 163B                                                                                                  0.0s
