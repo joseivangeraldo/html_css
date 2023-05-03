@@ -153,7 +153,7 @@ Vamos só para visualizar o conjunto. Listar os arquivos:
 root@1e936a216edd:/usr/local/apache2# ls
 bin  build  cgi-bin  conf  error  htdocs  icons  include  logs  modules
 ```
-Abrir a pasta publica e a seguir listar os arquivos desta pasta.Vamos encontrar os arquivos que montamso da pasta da maquina local.
+Abrir a pasta publica e a seguir listar os arquivos desta pasta.Vamos encontrar os arquivos que criamos da pasta da maquina local.
 ```
 root@1e936a216edd:/usr/local/apache2# cd htdocs
 root@1e936a216edd:/usr/local/apache2/htdocs# ls
@@ -168,7 +168,16 @@ Vamos editar agora o nosso arquivo index.html, para isto digite:
 ```
 root@1e936a216edd:/usr/local/apache2/htdocs#  vi index.html
 ```
- 
+
+Então o arquivo index.html é exibido, assim:
+
+```
+colocar imagem aqui
+```
+Repare no rodapé,  é nesta área da interface do programa que precisamos prestar atenção, aí é mostrado qual a ação que estamos fazendo.
+ Vamos iniciar a edição. A tecla esc funciona como uma baliza, em uma analogia mais simplório é como fosse o ponto neutro do câmbio de um carro, mais para frente vai ficar claro esta comparação.
+
+aperte a tecla esc, para ter certeza que está no menu básico. Em seguida aperte a tecla 'e'. No rodapé do editor aparecerá a palavra INSERT, significando que está  no modo de edição.
 root@1e936a216edd:/usr/local/apache2/htdocs# 
 
 > [Topo](#ancora)
