@@ -2,7 +2,7 @@
 # Indice 
 - [Tecnologia](#tecnologia)
 - [Instação do Ambiente](#instalacao)
-- [Kazekage](#ancora3)
+- [Acrescentar editar arquivos](#acrescentareditar)
 - [Mizukage](#ancora4)
 - [Raikage](#ancora5)
 - [Tsuchikage](#ancora)
@@ -133,12 +133,13 @@ Ao clicar ou seguir a porta 80 será exibida pagina index.html, que foi criada a
 ![Imagem Pagina Index.html](/images/pagina_funcionou.jpg)  <br/>
 [Topo](#ancora)
 
-## Kazekage
+
+<a id="acrescentareditar"></a>
+## Acrescentar e Editar arquivos
 
 > Loren Ipsum
 > Donec nec mattis dui, quis sagittis magna. Praesent in sollicitudin erat, non molestie velit. Nam tempor metus et laoreet sodales. Sed eu mauris odio. Maecenas at feugiat mi. Nam venenatis accumsan mi, in dictum nisl. Phasellus laoreet nec sem at volutpat.
 > [Topo](#ancora)
-> <a id="ancora3"></a>
 
 ## Mizukage
 
