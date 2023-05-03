@@ -159,6 +159,9 @@ root@1e936a216edd:/usr/local/apache2# cd htdocs
 root@1e936a216edd:/usr/local/apache2/htdocs# ls
 Dockerfile  index.html
 ```
+
+Agora vamos entrar no arquivo que queremos editar, ou criar um novo, aí fica conforme a demanda de seu projeto ou  trabalho.
+Para isso vamos usar o VIM. Que é um dos primeiros editores Shell nativo. Explicaremos aqui comandos básicos para editar e salvar seus documentos.
 root@1e936a216edd:/usr/local/apache2/htdocs# 
 
 > [Topo](#ancora)
