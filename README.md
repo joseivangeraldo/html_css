@@ -79,6 +79,25 @@ docker build .
 Detalhe o sinal de ponto, ao final, informar para pegar tudo que esta dentro do diretório
 Se a IDE perguntar se quer instalar a estensão de suporte para Docker concordar e instalar.
 
+```
+@joseivangeraldo ➜ /workspaces/html_css/ServerApache (main) $ docker build .
+[+] Building 16.1s (10/10) FINISHED                                                                                                        
+ => [internal] load build definition from Dockerfile                                                                                  0.3s
+ => => transferring dockerfile: 163B                                                                                                  0.0s
+ => [internal] load .dockerignore                                                                                                     0.4s
+ => => transferring context: 2B                                                                                                       0.0s
+ => [internal] load metadata for docker.io/library/httpd:2.4                                                                          0.5s
+ => [auth] library/httpd:pull token for registry-1.docker.io                                                                          0.0s
+ => [internal] load build context                                                                                                     0.1s
+ => => transferring context: 319B                                                                                                     0.0s
+ => CACHED [1/4] FROM docker.io/library/httpd:2.4@sha256:a182ef2350699f04b8f8e736747104eb273e255e818cd55b6d7aa50a1490ed0c             0.0s
+ => [2/4] COPY ./ /usr/local/apache2/htdocs/                                                                                          0.4s
+ => [3/4] RUN ["apt-get", "update"]                                                                                                   5.2s
+ => [4/4] RUN ["apt-get", "install", "-y", "vim"]                                                                                     7.7s
+ => exporting to image                                                                                                                1.5s 
+ => => exporting layers                                                                                                               1.4s 
+ => => writing image sha256:d0b5d542ef584608a2b54597c2a3b85dd5ab06814ab7b349f38d2b0cf279b61d                                          0.0s
+```
 
 [Topo](#ancora)
 
