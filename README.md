@@ -77,33 +77,33 @@ Montar a Imagem, importante estar dentro do diretório que foi criado, e o Docke
 docker build -t apache-docker .
 ```
 Detalhe o sinal de ponto, ao final, informar para pegar tudo que esta dentro do diretório.
-É colocado uma tag de identificação para melhot localização, com -t 
+É colocado uma tag de identificação para melhot localização, com -t , pode ser o nome de sua preferência. 
 
 Será mostrado mensagens da evolução do processo como abaixo:
 ```
-$ docker build .
-[+] Building 16.1s (10/10) FINISHED                                                                                                        
- => [internal] load build definition from Dockerfile                                                                                  0.3s
- => => transferring dockerfile: 163B                                                                                                  0.0s
- => [internal] load .dockerignore                                                                                                     0.4s
+[+] Building 1.1s (10/10) FINISHED                                                                                                         
+ => [internal] load build definition from Dockerfile                                                                                  0.2s
+ => => transferring dockerfile: 37B                                                                                                   0.0s
+ => [internal] load .dockerignore                                                                                                     0.3s
  => => transferring context: 2B                                                                                                       0.0s
- => [internal] load metadata for docker.io/library/httpd:2.4                                                                          0.5s
+ => [internal] load metadata for docker.io/library/httpd:2.4                                                                          0.3s
  => [auth] library/httpd:pull token for registry-1.docker.io                                                                          0.0s
  => [internal] load build context                                                                                                     0.1s
- => => transferring context: 319B                                                                                                     0.0s
- => CACHED [1/4] FROM docker.io/library/httpd:2.4@sha256:a182ef2350699f04b8f8e736747104eb273e255e818cd55b6d7aa50a1490ed0c             0.0s
- => [2/4] COPY ./ /usr/local/apache2/htdocs/                                                                                          0.4s
- => [3/4] RUN ["apt-get", "update"]                                                                                                   5.2s
- => [4/4] RUN ["apt-get", "install", "-y", "vim"]                                                                                     7.7s
- => exporting to image                                                                                                                1.5s 
- => => exporting layers                                                                                                               1.4s 
+ => => transferring context: 60B                                                                                                      0.0s
+ => [1/4] FROM docker.io/library/httpd:2.4@sha256:a182ef2350699f04b8f8e736747104eb273e255e818cd55b6d7aa50a1490ed0c                    0.0s
+ => CACHED [2/4] COPY ./ /usr/local/apache2/htdocs/                                                                                   0.0s
+ => CACHED [3/4] RUN ["apt-get", "update"]                                                                                            0.0s
+ => CACHED [4/4] RUN ["apt-get", "install", "-y", "vim"]                                                                              0.0s
+ => exporting to image                                                                                                                0.2s
+ => => exporting layers                                                                                                               0.0s
  => => writing image sha256:d0b5d542ef584608a2b54597c2a3b85dd5ab06814ab7b349f38d2b0cf279b61d                                          0.0s
+ => => naming to docker.io/library/apache-docker                                           0.0s
 ```
-Verificar se existe a imagem no sistema
+Verificar se existe a imagem no sistema:
 ```
 $ docker images
-REPOSITORY   TAG       IMAGE ID       CREATED         SIZE
-<none>       <none>    d0b5d542ef58   5 minutes ago   199MB
+REPOSITORY      TAG       IMAGE ID       CREATED          SIZE
+apache-docker   latest    d0b5d542ef58   16 minutes ago   199MB
 ```
 
 
