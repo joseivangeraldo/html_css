@@ -74,10 +74,10 @@ Seque a sintaxe do modelo:
 
 Montar a Imagem, importante estar dentro do diretório que foi criado, e o Dockerfile estar dentro do mesmo diretório:
 ```
-docker build .
+docker build -t apache-docker .
 ```
 Detalhe o sinal de ponto, ao final, informar para pegar tudo que esta dentro do diretório.
-
+É colocado uma tag de identificação para melhot localização, com -t 
 
 Será mostrado mensagens da evolução do processo como abaixo:
 ```
@@ -99,6 +99,13 @@ $ docker build .
  => => exporting layers                                                                                                               1.4s 
  => => writing image sha256:d0b5d542ef584608a2b54597c2a3b85dd5ab06814ab7b349f38d2b0cf279b61d                                          0.0s
 ```
+Verificar se existe a imagem no sistema
+```
+$ docker images
+REPOSITORY   TAG       IMAGE ID       CREATED         SIZE
+<none>       <none>    d0b5d542ef58   5 minutes ago   199MB
+```
+
 
 [Topo](#ancora)
 
