@@ -105,8 +105,15 @@ $ docker images
 REPOSITORY      TAG       IMAGE ID       CREATED          SIZE
 apache-docker   latest    d0b5d542ef58   16 minutes ago   199MB
 ```
-
-
+Neste momento já temos a nossa imagem no sistema, precisamos agora rodar ela em um Docker container.
+Verificar agora se existe algum contâiner rodando:
+```
+$ docker ps
+```
+Se não existir vai ser retornado uma tabela vazia:
+```
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+```
 [Topo](#ancora)
 
 
