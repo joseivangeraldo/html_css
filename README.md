@@ -135,7 +135,7 @@ Ao clicar ou seguir a porta 80 será exibida pagina index.html, que foi criada a
 
 
 <a id="acrescentareditar"></a>
-## Acrescentar e Editar arquivos
+## 📁 Acrescentar e Editar arquivos
 
 > Para acrescentar e editar arquivos no servidor, precisamos entrar no docker container.
 > Vamos acessar ele através de seu bash.Para isto utilizamos o comando 'exec' do docker.
