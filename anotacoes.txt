@@ -9,6 +9,13 @@ docker build -t apache-docker . --> coloca uma tag para melhot identificação
  docker stop ID_CONTAINER 
  docker start ID_CONTAINER 
 
+ @joseivangeraldo ➜ /workspaces/html_css (main) $ git pull
+Updating fa71f57..98ae813
+Fast-forward
+ README.md | 21 ++++++++++++++++++++-
+ 1 file changed, 20 insertions(+), 1 deletion(-)
+@joseivangeraldo ➜ /workspaces/html_css (main) $ 
+
 
 
 @joseivangeraldo ➜ /workspaces/html_css/ServerApache (main) $ git init
@@ -88,3 +95,6 @@ CONTAINER ID   IMAGE          COMMAND              CREATED        STATUS        
 1e936a216edd   d0b5d542ef58   "httpd-foreground"   13 hours ago   Exited (0) About a minute ago             apache-docker
 @joseivangeraldo ➜ /workspaces/html_css (main) $ docker rm 1e936a216edd
 1e936a216edd
+
+
+COMANDO VIM ADICIONAR MOUSE--> :set mousemodel=extend
