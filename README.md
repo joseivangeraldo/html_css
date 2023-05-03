@@ -137,8 +137,15 @@ Ao clicar ou seguir a porta 80 será exibida pagina index.html, que foi criada a
 <a id="acrescentareditar"></a>
 ## Acrescentar e Editar arquivos
 
-> Loren Ipsum
-> Donec nec mattis dui, quis sagittis magna. Praesent in sollicitudin erat, non molestie velit. Nam tempor metus et laoreet sodales. Sed eu mauris odio. Maecenas at feugiat mi. Nam venenatis accumsan mi, in dictum nisl. Phasellus laoreet nec sem at volutpat.
+> Para acrescentar e editar arquivos no servidor, precisamos entrar no docker container.
+> Vamos acessar ele através de seu bash.Para isto utilizamos o comando 'exec' do docker.
+```
+ $ docker exec -it 1e936a216edd bash
+```
+Vai aparecer a segui a linha de comando bash, do container, entramos diretor dentro da pasta publica.
+```
+root@1e936a216edd:/usr/local/apache2#
+```
 > [Topo](#ancora)
 
 ## Mizukage
