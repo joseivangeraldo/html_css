@@ -161,7 +161,14 @@ Dockerfile  index.html
 ```
 
 Agora vamos entrar no arquivo que queremos editar, ou criar um novo, aí fica conforme a demanda de seu projeto ou  trabalho.
-Para isso vamos usar o VIM. Que é um dos primeiros editores Shell nativo. Explicaremos aqui comandos básicos para editar e salvar seus documentos.
+Para isso vamos usar o VIM, que é um dos primeiros editores Shell nativo. Explicaremos aqui comandos básicos para editar e salvar seus documentos.Se quiser buscar [informações completas](https://www.vim.org/).  </br>
+
+Ao abrir o VIM parece uma coisa meio estranha, pois é  um editor feito para ambiente de linha de comando, e os usuarios acostumados com editores graficos ficam bem confusos. Ao iniciar o VIM aguarda oque o usuário deseja fazer, pode ser edição,  visualização ou navegação. Estes comandos são  divididos em comandos de exibição, edição e navegação.
+Vamos editar agora o nosso arquivo index.html, para isto digite:
+```
+root@1e936a216edd:/usr/local/apache2/htdocs#  vi index.html
+```
+ 
 root@1e936a216edd:/usr/local/apache2/htdocs# 
 
 > [Topo](#ancora)
