@@ -1,4 +1,4 @@
-<a id="#ancora"></a>
+<a name="ancora"></a>
 # Indice 
 - [Tecnologia](#tecnologia)
 - [Instação do Ambiente](#instalacao)
