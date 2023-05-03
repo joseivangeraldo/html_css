@@ -124,8 +124,11 @@ docker run -dit --name NOME_BATISMO_CONTAINER -p 80:80 IMAGE ID
 ```
 $ docker run -dit --name apache-docker -p 80:80 d0b5d542ef58
 ```
-Vamos montar ele na porta 80 local, comunicando com a porta 80 do container.
+Vai ser montado na porta 80 local, comunicando com a porta 80 do container.
 
+Após isto será exibido a mensagem que a porta 80 está sendo acionada, e pode-se abrir via browser.
+![Imagem Port open codespace github](/workspaces/html_css/images/Port_open_codespace.png)
+É só clicar ou seguir a porta que será mostrada a pagina index.html que foi criada.
 
 [Topo](#ancora)
 
