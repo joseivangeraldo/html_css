@@ -142,10 +142,20 @@ Ao clicar ou seguir a porta 80 será exibida pagina index.html, que foi criada a
 ```
  $ docker exec -it 1e936a216edd bash
 ```
-Vai aparecer a segui a linha de comando bash, do container, entramos diretor dentro da pasta publica.
+Vai aparecer a seguir a linha de comando bash do container docker.
 ```
 root@1e936a216edd:/usr/local/apache2#
 ```
+
+root@1e936a216edd:/usr/local/apache2# ls
+bin  build  cgi-bin  conf  error  htdocs  icons  include  logs  modules
+root@1e936a216edd:/usr/local/apache2# cd htdos
+bash: cd: htdos: No such file or directory
+root@1e936a216edd:/usr/local/apache2# cd htdocs/
+root@1e936a216edd:/usr/local/apache2/htdocs# ls
+Dockerfile  index.html
+root@1e936a216edd:/usr/local/apache2/htdocs# 
+
 > [Topo](#ancora)
 
 ## Mizukage
