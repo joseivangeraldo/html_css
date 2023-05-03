@@ -148,7 +148,7 @@ Se existir conteúdo abaixo do console é somente a visualização da saida do c
 ```
 root@1e936a216edd:/usr/local/apache2#
 ```
-Vamos só para visualizar o conjunto, listar os arquivos:
+Vamos só para visualizar o conjunto. Listar os arquivos:
 ```
 root@1e936a216edd:/usr/local/apache2# ls
 bin  build  cgi-bin  conf  error  htdocs  icons  include  logs  modules
