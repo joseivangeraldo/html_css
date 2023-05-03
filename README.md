@@ -143,7 +143,7 @@ Ao clicar ou seguir a porta 80 será exibida pagina index.html, que foi criada a
  $ docker exec -it 1e936a216edd bash
 ```
 Vai aparecer a seguir a linha de comando bash do container docker.
-**O simbolo '#' é o seu status de usuario, que indicar ser root, o que terá de ser digitado é somente o testo oque está após este sinal.
+**O simbolo '#' é o seu status de usuario, que indica ser root, o que terá de ser digitado é somente o texto que está após este sinal.
 Se existir conteúdo abaixo do console é somente a visualização da saida do comando.**
 ```
 root@1e936a216edd:/usr/local/apache2#
@@ -153,11 +153,12 @@ Vamos só para visualizar o conjunto, listar os arquivos:
 root@1e936a216edd:/usr/local/apache2# ls
 bin  build  cgi-bin  conf  error  htdocs  icons  include  logs  modules
 ```
-root@1e936a216edd:/usr/local/apache2# cd htdos
-bash: cd: htdos: No such file or directory
-root@1e936a216edd:/usr/local/apache2# cd htdocs/
+Abrir a pasta publica e a seguir listar os arquivos desta pasta.Vamos encontrar os arquivos que montamso da pasta da maquina local.
+```
+root@1e936a216edd:/usr/local/apache2# cd htdocs
 root@1e936a216edd:/usr/local/apache2/htdocs# ls
 Dockerfile  index.html
+```
 root@1e936a216edd:/usr/local/apache2/htdocs# 
 
 > [Topo](#ancora)
