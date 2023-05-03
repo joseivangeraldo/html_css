@@ -56,3 +56,21 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 https://phoenixnap.com/kb/how-to-commit-changes-to-docker-image
+
+Step 4: Commit Changes to Image
+Finally, create a new image by committing the changes using the following syntax:
+
+sudo docker commit [CONTAINER_ID] [new_image_name]
+
+Therefore, in our example it will be:
+
+sudo docker commit deddd39fa163 ubuntu-nmap
+
+Where deddd39fa163 is the CONTAINER ID and ubuntu-nmap is the name of the new image.
+
+docker command to commit changes to image
+
+Your newly created image should now be available on the list of local images. You can verify by checking the image list again:
+
+sudo docker images
+
