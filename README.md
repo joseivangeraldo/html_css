@@ -127,10 +127,10 @@ $ docker run -dit --name apache-docker -p 80:80 d0b5d542ef58
 Vai ser montado na porta 80 local, comunicando com a porta 80 do container.
 
 Após isto será exibido a mensagem que a porta 80 está sendo acionada. 
-![Imagem Port open codespace github](/images/Port_open_codespace.png)
+![Imagem Port open codespace github](/images/Port_open_codespace.jpg)
 
 Ao clicar ou seguir a porta 80 será exibida pagina index.html, que foi criada anteriormente.
-![Imagem Pagina Index.html](/images/pagina_funcionou.png)
+![Imagem Pagina Index.html](/images/pagina_funcionou.jpg)
 
 [Topo](#ancora)
 
