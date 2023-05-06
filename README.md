@@ -176,6 +176,8 @@ Repare no rodapé,  é nesta área da interface do programa que precisamos prest
 
 aperte a tecla esc, para ter certeza que está no menu básico. Em seguida aperte a tecla 'e'. No rodapé do editor aparecerá a palavra INSERT, significando que está  no modo de edição.
 
+Você pode clonar este repositório:
+
 ```bash
 # Clone este repositório
 $ git clone <https://github.com/tgmarinho/nlw1>
