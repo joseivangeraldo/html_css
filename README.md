@@ -180,7 +180,7 @@ Você pode clonar este repositório:
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/tgmarinho/nlw1>
+$ git clone <https://github.com/joseivangeraldo/html_css>
 ```
 
 MIT License
