@@ -3,9 +3,6 @@
 - [Tecnologia](#tecnologia)
 - [Instação do Ambiente](#instalacao)
 - [Acrescentar editar arquivos](#acrescentareditar)
-- [Mizukage](#ancora4)
-- [Raikage](#ancora5)
-- [Tsuchikage](#ancora)
 
 ### <a id="tecnologia"> 🛠 Tecnologias</a>
 
