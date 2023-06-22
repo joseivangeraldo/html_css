@@ -1,0 +1,5 @@
+docker run -d --name meucontainer -v /var/app:/var/www/html imagem
+
+/usr/local/apache2/htdocs
+
+@joseivangeraldo ➜ /workspaces/html_css/ServerApache (main) $ docker run -d -p 80:80 -v /workspaces/html_css/ServerApache:/usr/local/apache2/htdocs apache-docker
